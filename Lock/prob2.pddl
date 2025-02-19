@@ -1,0 +1,11 @@
+(define(problem pro-lock1)
+(:domain lock1)
+(:init
+(not (gotk))
+(not (opened))
+( = (loc) 4)
+( = (mid) 4)
+( = (xkey) 8)
+)
+(:goal(and(opened)))
+)
