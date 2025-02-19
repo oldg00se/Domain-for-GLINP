@@ -1,0 +1,11 @@
+(define(problem probspanner)
+(:domain spanner)
+(:init
+(not (empty))
+( = (numn) 5)
+( = (nums) 5)
+( = (dist) 5)
+( = (numc) 0)
+)
+(:goal(and(=(numn)0)(=(dist)0)))
+)
